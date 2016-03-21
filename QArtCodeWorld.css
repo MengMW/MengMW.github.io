@@ -1,0 +1,69 @@
+@charset "UTF-8";
+/* CSS Document */
+/* 网页背景 */
+html,body{background-color:#FFFFFF;}
+
+#Menu {
+	position:absolute;
+	left: 0px;
+	top: 0px;
+	right: 0px;
+	width: 100%;
+	height: 80px;
+	z-index: 1;
+	background-color: #000;
+}
+#mainMenu{
+	position: relative;
+	float: right;
+	width: 90%;
+	margin: 0 auto;
+
+}
+#QArtCodeWorld{
+	position: relative;
+	float: left;
+	width: 260px;
+	height: 80px;
+	margin: 0 auto;
+	background-color: #DC4235;
+	font-family: chalkduster;
+	font-size: 20px;
+	color: #FFF;
+}
+#hyperLink{
+	position: relative;
+	float: left;
+	height: 80px;
+	margin: auto auto auto 20px;
+	font-family: arial;
+	font-size: 14px;
+	color: #FFF;
+	top: 35px;
+}
+/*link style set*/
+a{
+	text-decoration: none;
+	margin-left: 50px;
+}
+a:hover {
+	text-decoration: underline;
+}
+#content{
+	position: relative;
+	float: right;
+	width: 90%;
+	top: 100px;
+}
+#GuideSentence{
+	font-family: chalkduster;
+	color: #000;
+	line-height: 150%;
+}
+#preknowledge{
+	position: relative;
+}
+
+#wayToDesign{
+	position: relative;
+}
