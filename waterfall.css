@@ -6,8 +6,11 @@
 	position: relative;
 	float: right;
 	width: 90%;
+	/*vertical-align: middle;*/
+	/*margin-right: auto;*/
+	/*margin-left: auto;*/
 	margin: 0 auto;
-	top: 100px;
+	/*top: 100px;*/
 
 }
 
