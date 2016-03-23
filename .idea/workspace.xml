@@ -1,12 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="72a0d8fd-2183-4cbd-bae9-9701178aa152" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/QArtCodeWorld.css" afterPath="$PROJECT_DIR$/QArtCodeWorld.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/waterfall.css" afterPath="$PROJECT_DIR$/waterfall.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-    </list>
+    <list default="true" id="72a0d8fd-2183-4cbd-bae9-9701178aa152" name="Default" comment="" />
     <ignored path="MengMW.github.io.iws" />
     <ignored path=".idea/workspace.xml" />
     <ignored path="$PROJECT_DIR$/out/" />
@@ -238,12 +233,12 @@
       <option name="number" value="Default" />
       <updated>1458541005890</updated>
       <workItem from="1458541011997" duration="323000" />
-      <workItem from="1458769232125" duration="1134000" />
+      <workItem from="1458769232125" duration="1179000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1457000" />
+    <option name="totallyTimeSpent" value="1502000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="288" y="23" width="1103" height="801" extended-state="0" />
