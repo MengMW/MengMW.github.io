@@ -1,0 +1,119 @@
+*{
+    background-color: #F8F6DB;
+}
+/*navigation*/
+#nav{
+    position: absolute;
+    width: 100%;
+    height: 46px;
+    background-color: black;
+    top: 0;
+    left: 0;
+
+}
+.navTitle{
+    position: relative;
+    float: left;
+    left: 10%;
+    /*display: inline-block;*/
+    background-color: #f44336;
+    color: #FFFFFF;
+    padding: 14px 25px;
+    text-align: center;
+    font-size: 16px;
+    margin-left: 20px;
+ }
+.navLink{
+    position: relative;
+    float: left;
+    left: 12%;
+    /*display: inline-block;*/
+    background-color: black;
+    color: #FFFFFF;
+    padding: 14px 25px;
+    text-align: center;
+    font-size: 16px;
+    margin-left: 20px;
+    /*opacity: 0.9;*/
+}
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    background-color: #f44336;
+    opacity: 0.9;
+}
+a:active {
+    background-color: #f44336;
+}
+
+/*gallery*/
+.grid{
+    width: 80%;
+    left: 12%;
+    vertical-align: middle;
+    float: left;
+    top: 80px;
+}
+.grid-item {
+    width: 450px;
+    float: left;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    border: solid #e0e0e0 1px;
+}
+.grid-item--width2 { width: 200px;
+    float: left;
+    border: solid #e0e0e0 1px;
+
+}
+img{
+    width: 100%;
+    border-radius: 5px;
+    border-bottom: #e0e0e0 solid 1px;
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 0px;
+    margin-bottom: -5px;
+}
+.text {
+    display: inline-block;
+    color: grey;
+    letter-spacing: 1px;
+    line-height: 130%;
+    background-color: #FFFFFF;
+    padding: 6px 15px 6px 15px;
+    border-bottom-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+    border-top: #e0e0e0 solid 1px;
+    text-align: left;
+}
+/*tutorial*/
+video{
+    position: absolute;
+    text-align: center;
+    top: 100px;
+    left: 30%;
+
+}
+html{
+    text-align: center;;
+}
+
+#banner{
+    position: relative;
+    top: 60px;
+    width: 80%;
+    left: 10%;
+}
+#waysToDesign{
+    position:relative;
+    float: left;
+    top: 400px;
+}
+
+#preknowledge{
+    position:relative;
+    float: left;
+    top: 400px;
+}
