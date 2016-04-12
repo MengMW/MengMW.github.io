@@ -89,6 +89,7 @@ img{
     letter-spacing: 1px;
     line-height: 130%;
     background-color: #FFFFFF;
+    margin-bottom: -1px;
     padding: 6px 15px 6px 15px;
     border-bottom-right-radius: 5px;
     border-bottom-left-radius: 5px;
@@ -125,27 +126,40 @@ html{
     top: 400px;
 }
 
-@media screen and  (max-width: 900px){
-    /*.navTitle{*/
-        /*height: 135px;*/
-        /*line-height: 135px;*/
-        /*font-size: 24px;*/
-        /*left: 0;*/
-        /*margin: 0;*/
-    /*}*/
-    .navTitle {
-        display: none;
+@media screen and  (max-width: 650px){
+    .navTitle{
+        height: 90px;
+        /*width: 100%;*/
+        line-height: 90px;
+        font-size: 20px;
+        left: 0;
+        margin: 0;
+        padding: 0 15px;
     }
+    #navLink1{
+        display: none;
+
+    }
+
     .navLink{
         height: 90px;
         line-height: 90px;
-        font-size: 24px;
-        margin: 0 5px;
+        font-size: 20px;
+        margin: 0;
         padding: 0 10px;
+        float: left;
+        left: auto;
     }
-
+    #navLink2{
+        margin-left: 20px;
+    }
     .grid{
         top: 200px;
+        width: 100%;
+        left: 20%;
+    }
+    .grid-item{
+        width: 200px;
     }
 
 }
