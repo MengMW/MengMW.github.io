@@ -5,12 +5,13 @@
 #nav{
     position: absolute;
     width: 100%;
-    height: 46px;
+    /*height: 46px;*/
     background-color: black;
     top: 0;
     left: 0;
 
 }
+
 .navTitle{
     position: relative;
     float: left;
@@ -37,6 +38,8 @@
     margin-left: 20px;
     /*opacity: 0.9;*/
 }
+
+
 a {
     text-decoration: none;
 }
@@ -120,4 +123,23 @@ html{
     position:relative;
     float: left;
     top: 400px;
+}
+
+@media screen and  (max-width: 900px){
+    .navLink{
+        height: 90px;
+        line-height: 90px;
+        font-size: 24px;
+    }
+    .navTitle{
+        height: 90px;
+        line-height: 90px;
+        font-size: 24px;
+    }
+    .grid{
+        top: 200px;
+    }
+    .grid-item--width2{
+        width: 300px;
+    }
 }
