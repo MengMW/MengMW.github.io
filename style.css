@@ -134,11 +134,11 @@ html{
         /*margin: 0;*/
     /*}*/
     .navTitle {
-        display: none;  
+        display: none;
     }
     .navLink{
-        height: 135px;
-        line-height: 135px;
+        height: 90px;
+        line-height: 90px;
         font-size: 24px;
         margin: 0 5px;
         padding: 0 10px;
@@ -147,7 +147,5 @@ html{
     .grid{
         top: 200px;
     }
-    .grid-item--width2{
-        width: 300px;
-    }
+
 }
