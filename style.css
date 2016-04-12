@@ -20,7 +20,7 @@
     background-color: #f44336;
     color: #FFFFFF;
     line-height: 46px;
-    padding: 0 25px;
+    padding: 0 30px;
     text-align: center;
     font-size: 16px;
     margin-left: 20px;
@@ -128,9 +128,9 @@ html{
 
 @media screen and  (max-width: 550px){
     .navTitle{
-        height: 90px;
+        height: 75px;
         /*width: 100%;*/
-        line-height: 90px;
+        line-height: 75px;
         font-size: 16px;
         left: 0;
         margin: 0;
@@ -142,8 +142,8 @@ html{
     }
 
     .navLink{
-        height: 90px;
-        line-height: 90px;
+        height: 75px;
+        line-height: 75px;
         font-size: 16px;
         margin: 0;
         padding: 0 10px;
