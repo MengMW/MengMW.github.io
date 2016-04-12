@@ -15,10 +15,11 @@
     position: relative;
     float: left;
     left: 10%;
-    /*display: inline-block;*/
+    height: 46px;
     background-color: #f44336;
     color: #FFFFFF;
-    padding: 14px 25px;
+    line-height: 46px;
+    padding: 0 25px;
     text-align: center;
     font-size: 16px;
     margin-left: 20px;
@@ -27,10 +28,10 @@
     position: relative;
     float: left;
     left: 12%;
-    /*display: inline-block;*/
     background-color: black;
     color: #FFFFFF;
-    padding: 14px 25px;
+    line-height: 46px;
+    padding: 0 25px;
     text-align: center;
     font-size: 16px;
     margin-left: 20px;
@@ -42,15 +43,16 @@ a {
 
 a:hover {
     background-color: #f44336;
-    opacity: 0.9;
+    /*opacity: 0.9;*/
 }
-a:active {
+a:active{
     background-color: #f44336;
+    color: #000;
 }
 
 /*gallery*/
 .grid{
-    width: 80%;
+    width: 85%;
     left: 12%;
     vertical-align: middle;
     float: left;
@@ -63,9 +65,11 @@ a:active {
     margin-bottom: 20px;
     border: solid #e0e0e0 1px;
 }
-.grid-item--width2 { width: 200px;
+.grid-item--width2 {
+    width: 200px;
     float: left;
     border: solid #e0e0e0 1px;
+    border-radius: 5px;
 
 }
 img{
