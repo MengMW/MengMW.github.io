@@ -126,16 +126,24 @@ html{
 }
 
 @media screen and  (max-width: 900px){
+    /*.navTitle{*/
+        /*height: 135px;*/
+        /*line-height: 135px;*/
+        /*font-size: 24px;*/
+        /*left: 0;*/
+        /*margin: 0;*/
+    /*}*/
+    .navTitle {
+        display: none;  
+    }
     .navLink{
-        height: 90px;
-        line-height: 90px;
+        height: 135px;
+        line-height: 135px;
         font-size: 24px;
+        margin: 0 5px;
+        padding: 0 10px;
     }
-    .navTitle{
-        height: 90px;
-        line-height: 90px;
-        font-size: 24px;
-    }
+
     .grid{
         top: 200px;
     }
