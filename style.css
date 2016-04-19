@@ -1,6 +1,10 @@
 *{
     background-color: #F8F6DB;
 }
+html{
+    text-align: center;
+}
+
 /*navigation*/
 #nav{
     position: absolute;
@@ -73,9 +77,10 @@ a:active{
     float: left;
     border: solid #e0e0e0 1px;
     border-radius: 5px;
+    padding-bottom: 1px;
 
 }
-img{
+.grid-item img, .grid-item--width2 img {
     width: 100%;
     border-radius: 5px;
     border-bottom: #e0e0e0 solid 1px;
@@ -84,7 +89,6 @@ img{
     margin-bottom: -5px;
 }
 .text {
-    display: inline-block;
     color: grey;
     letter-spacing: 1px;
     line-height: 130%;
@@ -97,17 +101,63 @@ img{
     text-align: left;
 }
 /*tutorial*/
-video{
-    position: absolute;
+#exp, #exp p, .inspireExp, #divVideo, .tutoTitle{
+    background-color: white;
+}
+#tutoTitle1, #tutoTitle2 {
+    position: relative;
     text-align: center;
-    top: 100px;
-    left: 30%;
+    margin: 100px 10% 0 10%;
+    background-color: #e0e0e0;
+    height: 40px;
+    line-height: 40px;
+}
+#tutoTitle2 {
+    margin-top : 70px;
+}
+#divVideo{
+    position: relative;
+    margin: 0 10%;
+    padding: 30px;
+}
+video{
+    position: relative;
+    text-align: center;
 
 }
-html{
-    text-align: center;;
+
+#exp{
+    position: relative;
+    float: left;
+    text-align: center;
+    margin: 0 10%;
+    padding: 30px 3%;
 }
 
+.inspireExp{
+    float: left;
+    vertical-align: middle;
+    padding: 0 20px;
+    width: 28%;
+}
+
+.inspireExp img{
+    width: 100%;
+}
+#inspLink{
+    position: relative;
+    text-align: center;
+    background-color: black;
+    color: #FFFFFF;
+    height: 46px;
+    line-height: 46px;
+    padding: 10px 25px;
+    font-size: 16px;
+}
+
+
+
+/*index*/
 #banner{
     position: relative;
     top: 60px;
@@ -126,6 +176,7 @@ html{
     top: 400px;
 }
 
+/*for different screen size*/
 @media screen and  (max-width: 550px){
     .navTitle{
         height: 75px;
@@ -138,7 +189,6 @@ html{
     }
     #navLink1{
         display: none;
-
     }
 
     .navLink{
@@ -148,18 +198,35 @@ html{
         margin: 0;
         padding: 0 10px;
         float: left;
-        left: auto;
+        left: 4%;
     }
     #navLink2{
         margin-left: 20px;
     }
     .grid{
-        top: 200px;
+        top: 120px;
         width: 90%;
         left: 20%;
     }
     .grid-item{
         width: 200px;
     }
+    #divVideo{
+        padding: 0;
+    }
+    video{
+        width:100%;
+    }
+    #exp{
+        padding: 0;
+    }
+    .inspireExp{
+        width: 100%;
+        margin: 0;
+        padding: 0;
+    }
+    .inspireExp img{
+         width: 200px;
+     }
 
 }
