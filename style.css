@@ -4,13 +4,15 @@
 html{
     text-align: center;
 }
-
+#animation{
+    margin-top: 50px;
+}
 /*navigation*/
 #nav{
     position: absolute;
     width: 100%;
     /*height: 46px;*/
-    background-color: black;
+    background-color: #F3A333;
     top: 0;
     left: 0;
 
@@ -33,7 +35,7 @@ html{
     position: relative;
     float: left;
     left: 12%;
-    background-color: black;
+    background-color: #F3A333;
     color: #FFFFFF;
     line-height: 46px;
     padding: 0 25px;
@@ -49,7 +51,8 @@ a {
 }
 
 a:hover {
-    background-color: #f44336;
+    background-color: #F6F9C7;
+    color: #000;
     /*opacity: 0.9;*/
 }
 a:active{
@@ -218,5 +221,10 @@ video{
     .inspireExp img{
          width: 200px;
      }
-
+    #infographic, #animation{
+        width: 100%;
+    }
+    #animation{
+        margin-top: 80px;
+    }
 }
