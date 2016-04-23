@@ -1,5 +1,5 @@
 *{
-    background-color: #F8F6DB;
+    background-color: #F3FCC5;
 }
 html{
     text-align: center;
@@ -164,17 +164,7 @@ video{
     width: 80%;
     left: 10%;
 }
-#waysToDesign{
-    position:relative;
-    float: left;
-    top: 400px;
-}
 
-#preknowledge{
-    position:relative;
-    float: left;
-    top: 400px;
-}
 
 /*for different screen size*/
 @media screen and  (max-width: 550px){
