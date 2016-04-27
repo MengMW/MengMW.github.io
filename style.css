@@ -56,11 +56,18 @@ a:hover {
     /*opacity: 0.9;*/
 }
 a:active{
-    background-color: #f44336;
+    background-color: #F3A333;
     color: #000;
 }
 
 /*gallery*/
+#galleryIntro{
+    position: relative;
+    margin-top: 90px;
+    margin-bottom: -30px;
+    font-family: chalkduster;
+    font-size: 28px;
+}
 .grid{
     width: 85%;
     left: 12%;
@@ -112,10 +119,10 @@ a:active{
     text-align: center;
     margin: 100px 10% 0 10%;
     background-color: #F3A333;
-    color: #F6F9C7;
     height: 40px;
     line-height: 40px;
-
+    font-family: chalkduster;
+    color: #FFFFFF;
 }
 #tutoTitle2 {
     margin-top : 70px;
@@ -124,7 +131,6 @@ a:active{
     position: relative;
     margin: 0 10%;
     padding: 30px;
-    background: #F6F9E5;
 }
 video{
     position: relative;
@@ -144,6 +150,7 @@ video{
     float: left;
     vertical-align: middle;
     padding: 0 20px 10px 20px;
+    margin-bottom: 20px;
     width: 28%;
     /*background-color: #F3A333;*/
 }
@@ -154,13 +161,12 @@ video{
 #inspLink{
     position: relative;
     text-align: center;
-    background-color: black;
+    background-color: #F3A333;
     color: #FFF;
     height: 46px;
     line-height: 46px;
     padding: 10px 25px;
     font-size: 16px;
-    margin: 60px 10% 60px 10%;
 }
 
 
