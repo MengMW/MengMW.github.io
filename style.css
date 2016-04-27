@@ -111,9 +111,11 @@ a:active{
     position: relative;
     text-align: center;
     margin: 100px 10% 0 10%;
-    background-color: #e0e0e0;
+    background-color: #F3A333;
+    color: #F6F9C7;
     height: 40px;
     line-height: 40px;
+
 }
 #tutoTitle2 {
     margin-top : 70px;
@@ -122,6 +124,7 @@ a:active{
     position: relative;
     margin: 0 10%;
     padding: 30px;
+    background: #F6F9E5;
 }
 video{
     position: relative;
@@ -140,8 +143,9 @@ video{
 .inspireExp{
     float: left;
     vertical-align: middle;
-    padding: 0 20px;
+    padding: 0 20px 10px 20px;
     width: 28%;
+    /*background-color: #F3A333;*/
 }
 
 .inspireExp img{
@@ -151,11 +155,12 @@ video{
     position: relative;
     text-align: center;
     background-color: black;
-    color: #FFFFFF;
+    color: #FFF;
     height: 46px;
     line-height: 46px;
     padding: 10px 25px;
     font-size: 16px;
+    margin: 60px 10% 60px 10%;
 }
 
 
