@@ -103,6 +103,7 @@ a:active{
     letter-spacing: 1px;
     line-height: 130%;
     background-color: #FFFFFF;
+    margin-top: -1px;
     margin-bottom: -1px;
     padding: 6px 15px 6px 15px;
     border-bottom-right-radius: 5px;
@@ -210,7 +211,7 @@ video{
     .grid{
         top: 120px;
         width: 90%;
-        left: 20%;
+        left: 23%;
     }
     .grid-item{
         width: 200px;
@@ -240,7 +241,7 @@ video{
     }
     #galleryIntro{
         font-size: 16px;
-        margin-top: 100px;
-        margin-bottom: -90px;
+        margin-top: 110px;
+        margin-bottom: -100px;
     }
 }
