@@ -64,7 +64,7 @@ a:active{
 #galleryIntro{
     position: relative;
     margin-top: 90px;
-    margin-bottom: -30px;
+    margin-bottom: -40px;
     font-family: chalkduster;
     font-size: 28px;
 }
@@ -237,5 +237,10 @@ video{
     }
     #animation{
         margin-top: 80px;
+    }
+    #galleryIntro{
+        font-size: 16px;
+        margin-top: 100px;
+        margin-bottom: -90px;
     }
 }
